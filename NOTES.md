@@ -11,3 +11,20 @@ npm init -y
 gitignore with 
 
 npx gitignore node
+
+
+after setting up completely blank repo on github
+  git remote -v
+  git remote add origin <URL>
+  git remote -v
+
+
+ADD dependencies
+
+install nodemon
+
+npm i -D nodemon
+
+THE REST OF DEPENDENCIES
+
+npm i express knex sqlite3 helmet morgan cors
