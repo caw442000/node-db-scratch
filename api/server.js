@@ -15,9 +15,10 @@ server.use(cors());
 
 server.get('/', (req, res) => {
   res.status(200).json({ message: 'It is working'})
+  //Characters.find()
 })
 
 
-// server.use('/api/characters', characterRouter)
+server.use('/api/characters', characterRouter)
 
 module.exports = server;
