@@ -27,4 +27,11 @@ npm i -D nodemon
 
 THE REST OF DEPENDENCIES
 
-npm i express knex sqlite3 helmet morgan cors
+npm i express knex sqlite3 helmet morgan cors dotenv
+
+
+CREATE FOLDER FILE STRUCTURE
+
+mkdir api auth database utilities
+
+touch index.js api/server.js auth/character-model.js auth/character-router.js
